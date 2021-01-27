@@ -139,7 +139,7 @@ router.get('/', async (req, res) => {
         }
     }
     let q_5_1: QuestionInterface = {
-        qID: "qid_5_0",
+        qID: "qid_5_1",
         question: "TV series are great to watch, we learn a lot from them. Choose your favourite TV series, and we'll ask a question about it",
         answer: {
             answerType: AnswerTypes.MCQ,
@@ -161,7 +161,7 @@ router.get('/', async (req, res) => {
     }
 
     let q_5_2: QuestionInterface = {
-        qID: "qid_5_0",
+        qID: "qid_5_2",
         question: "Animes are love :) , Which one is your favourite",
         answer: {
             answerType: AnswerTypes.MCQ,
