@@ -58,19 +58,18 @@ router.get('/', async (req, res) => {
         answer: {
             answerType: AnswerTypes.GenderSelection,
             data: {
-                answerType: AnswerTypes.Date,
-                data: {
-                    "Male": {
-                        actionData: "qid_4",
-                        actionType: ActionTypes.NewQuestion
-                    }, "Female": {
-                        actionData: "qid_4",
-                        actionType: ActionTypes.NewQuestion
-                    }, "Other": {
-                        actionData: "qid_4",
-                        actionType: ActionTypes.NewQuestion
-                    },
-                }
+
+                "Male": {
+                    actionData: "qid_4",
+                    actionType: ActionTypes.NewQuestion
+                }, "Female": {
+                    actionData: "qid_4",
+                    actionType: ActionTypes.NewQuestion
+                }, "Other": {
+                    actionData: "qid_4",
+                    actionType: ActionTypes.NewQuestion
+                },
+
             }
         }
     }
